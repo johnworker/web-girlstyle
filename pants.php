@@ -1,3 +1,10 @@
+<?php/**
+ * Template Name: {範本名稱}
+ * Template Post Type: post, page
+ *
+ */
+?>
+
 <?php get_header(); ?>
     <!-- 導覽列 -->
     <nav data-aos="fade" data-aos-delay="500" data-aos-duration="3000">

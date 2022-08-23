@@ -3,7 +3,7 @@
     <!-- 頁尾 -->
     <footer>
         <div>
-            <a href="./index.html" class="logo"><img src="./img/logo_two.png" alt="形象天使標誌"></a>
+            <a href="./index.html" class="logo"><img src="<?php bloginfo('template_directory') ?>/img/logo_two.png" alt="形象天使標誌"></a>
         </div>
         <small id="copy">
             &copy; LEO 2021.
@@ -29,7 +29,7 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
 
-    <script src="./js/main.js"></script>
+    <script src="bloginfo('template_directory') ?>/js/main.js"></script>
 
 </body>
 </html>

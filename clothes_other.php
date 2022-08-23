@@ -5,7 +5,7 @@
             <div class="mini_link_box">
                 <ul class="mini_link">
                     <li>
-                        <a href="./index.php"><img src="./img/logo_two.png" alt="形象天使標誌"></a>
+                        <a href="./index.php"><img src="<?php bloginfo('template_directory') ?>/img/logo_two.png" alt="形象天使標誌"></a>
                     </li>
                     <li>
                         <a href="./recommend.php">最新商品</a>
@@ -49,7 +49,7 @@
         </div>
         <div></div>
         <div id="link">
-            <a href="./index.php" class="logo"><img src="./img/logo_two.png" alt="形象天使標誌"></a>
+            <a href="./index.php" class="logo"><img src="<?php bloginfo('template_directory') ?>/img/logo_two.png" alt="形象天使標誌"></a>
             <a href="./recommend.php">最新商品</a>
             <div id="link_work">
                 服裝類型
@@ -80,13 +80,13 @@
             <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡我們</a>
         </div>
         <div id="social">
-            <a href="https://www.youtube.com/results?search_query=fashion+shop" target="blank"><img src="./img/youtube.png"
+            <a href="https://www.youtube.com/results?search_query=fashion+shop" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/youtube.png"
                     alt="youtube"></a>
-            <a href="https://www.instagram.com/besscomha" target="blank"><img src="./img/instagram.png"
+            <a href="https://www.instagram.com/besscomha" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/instagram.png"
                     alt="instagram"></a>
-            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="./img/facebook.png"
+            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/facebook.png"
                     alt="facebook"></a>
-            <a href="https://github.com/" target="blank"><img src="./img/github.png" alt="github"></a>
+            <a href="https://github.com/" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/github.png" alt="github"></a>
         </div>
     </nav>
 
@@ -116,7 +116,7 @@
     <div class="items_container">
         <div class="card-1 card">
             <img class="product_image"
-                src="./img/recommend_seven.jpg"
+                src="<?php bloginfo('template_directory') ?>/img/recommend_seven.jpg"
                 alt="">
             <button class="add_to_cart">Add to cart</button>
             <h3 class="product_name">leather bag(brown)</h3>
@@ -124,7 +124,7 @@
         </div>
         <div class="card-2 card">
             <img class="product_image"
-                src="./img/recommend_eight.jpg"
+                src="<?php bloginfo('template_directory') ?>/img/recommend_eight.jpg"
                 alt="">
             <button class="add_to_cart">Add to cart</button>
             <h3 class="product_name">christian dior(white)</h3>
@@ -132,7 +132,7 @@
         </div>
         <div class="card-3 card">
             <img class="product_image"
-                src="./img/recommend_nine.jpg"
+                src="<?php bloginfo('template_directory') ?>/img/recommend_nine.jpg"
                 alt="">
             <button class="add_to_cart">Add to cart</button>
             <h3 class="product_name">flat iron(black)</h3>
@@ -140,7 +140,7 @@
         </div>
         <div class="card-4 card">
             <img class="product_image"
-                src="./img/recommend_two.jpg"
+                src="<?php bloginfo('template_directory') ?>/img/recommend_two.jpg"
                 alt="">
             <button class="add_to_cart">Add to cart</button>
             <h3 class="product_name">waterproof bag(green)</h3>
@@ -148,7 +148,7 @@
         </div>
         <div class="card-5 card">
             <img class="product_image"
-                src="./img/recommend_three.jpg"
+                src="<?php bloginfo('template_directory') ?>/img/recommend_three.jpg"
                 alt="">
             <button class="add_to_cart">Add to cart</button>
             <h3 class="product_name">louis vuitton(pattern)</h3>
@@ -157,7 +157,7 @@
 
         <div class="card-6 card">
             <img class="product_image"
-                src="./img/recommend_five.jpg"
+                src="<?php bloginfo('template_directory') ?>/img/recommend_five.jpg"
                 alt="">
             <button class="add_to_cart">Add to cart</button>
             <h3 class="product_name">louis vuitton(pattern)</h3>
@@ -166,7 +166,7 @@
 
         <div class="card-7 card">
             <img class="product_image"
-                src="./img/bag_eight.jpg"
+                src="<?php bloginfo('template_directory') ?>/img/bag_eight.jpg"
                 alt="">
             <button class="add_to_cart">Add to cart</button>
             <h3 class="product_name">louis vuitton(pattern)</h3>
@@ -175,7 +175,7 @@
 
         <div class="card-8 card">
             <img class="product_image"
-                src="./img/recommend_ten.jpg"
+                src="<?php bloginfo('template_directory') ?>/img/recommend_ten.jpg"
                 alt="">
             <button class="add_to_cart">Add to cart</button>
             <h3 class="product_name">louis vuitton(pattern)</h3>
@@ -184,7 +184,7 @@
 
         <div class="card-9 card">
             <img class="product_image"
-                src="./img/recommend_eleven.jpg"
+                src="<?php bloginfo('template_directory') ?>/img/recommend_eleven.jpg"
                 alt="">
             <button class="add_to_cart">Add to cart</button>
             <h3 class="product_name">louis vuitton(pattern)</h3>

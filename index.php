@@ -7,7 +7,7 @@
             <div class="mini_link_box">
                 <ul class="mini_link">
                     <li>
-                        <a href="./index.php"><img src="./img/logo_two.png" alt="形象天使標誌"></a>
+                        <a href="./index.php"><img src="<?php bloginfo('template_directory') ?>/img/logo_two.png" alt="形象天使標誌"></a>
                     </li>
                     <li>
                         <a href="./recommend.php">最新商品</a>
@@ -51,7 +51,7 @@
         </div>
         <div></div>
         <div id="link">
-            <a href="./index.php" class="logo"><img src="./img/logo_two.png" alt="形象天使標誌"></a>
+            <a href="./index.php" class="logo"><img src="<?php bloginfo('template_directory') ?>/img/logo_two.png" alt="形象天使標誌"></a>
             <a href="./recommend.php">最新商品</a>
             <div id="link_work">
                 服裝類型
@@ -82,13 +82,13 @@
             <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡我們</a>
         </div>
         <div id="social">
-            <a href="https://www.youtube.com/results?search_query=fashion+shop" target="blank"><img src="./img/youtube.png"
+            <a href="https://www.youtube.com/results?search_query=fashion+shop" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/youtube.png"
                     alt="youtube"></a>
-            <a href="https://www.instagram.com/besscomha" target="blank"><img src="./img/instagram.png"
+            <a href="https://www.instagram.com/besscomha" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/instagram.png"
                     alt="instagram"></a>
-            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="./img/facebook.png"
+            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/facebook.png"
                     alt="facebook"></a>
-            <a href="https://github.com/" target="blank"><img src="./img/github.png" alt="github"></a>
+            <a href="https://github.com/" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/github.png" alt="github"></a>
         </div>
     </nav>
 
@@ -117,7 +117,7 @@
                 <div class="mini_box">
                     <div class="mini_card">
                         <a href="./clothes_shirt.php" target="_blank">
-                            <img src="./img/girl1.jpg" alt="手機螢幕">
+                            <img src="<?php bloginfo('template_directory') ?>/img/girl1.jpg" alt="手機螢幕">
                         </a>
                         <h3>時尚穿搭</h3>
                     </div>
@@ -126,7 +126,7 @@
                 <div class="mini_box">
                     <div class="mini_card">
                         <a href="./clothes_skirt.php" target="_blank">
-                            <img src="./img/girl2.jpg" alt="手機螢幕">
+                            <img src="<?php bloginfo('template_directory') ?>/img/girl2.jpg" alt="手機螢幕">
                         </a>
                         <h3>輕鬆夏日</h3>
                     </div>
@@ -135,7 +135,7 @@
                 <div class="mini_box">
                     <div class="mini_card">
                         <a href="./clothes_bag.php" target="_blank">
-                            <img src="./img/skirt_three.jpg" alt="手機螢幕">
+                            <img src="<?php bloginfo('template_directory') ?>/img/skirt_three.jpg" alt="手機螢幕">
                         </a>
                         <h3>可愛風格</h3>
                     </div>
@@ -153,9 +153,9 @@
             <!-- (.news-card>img+h3{標題三}+p{lorem10}+button{按鈕})*3 -->
             <div class="news-card" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
                 <a href="https://shopee.tw/blog/aw-fashion-wear/" target="blank">
-                    <img class="recipe1" src="./img/new_product_one.jpg" alt="食譜最新消息"></a>
+                    <img class="recipe1" src="<?php bloginfo('template_directory') ?>/img/new_product_one.jpg" alt="食譜最新消息"></a>
                 <a href="https://shopee.tw/blog/aw-fashion-wear/" target="blank">
-                    <img class="recipe2" src="./img/new_product_two.jpg" alt="食譜最新消息">
+                    <img class="recipe2" src="<?php bloginfo('template_directory') ?>/img/new_product_two.jpg" alt="食譜最新消息">
                 </a>
                 <a href="https://shopee.tw/blog/aw-fashion-wear/" target="blank">
                     <h4>時尚套裝</h4>
@@ -163,10 +163,10 @@
             </div>
             <div class="news-card" data-aos="zoom-in-up" data-aos-delay="800" data-aos-duration="1000">
                 <a href="https://www.harpersbazaar.com.hk/fashion/business-casual-outfits" target="blank">
-                    <img class="recipe1" src="./img/new_product_three.jpg" alt="外送最新消息">
+                    <img class="recipe1" src="<?php bloginfo('template_directory') ?>/img/new_product_three.jpg" alt="外送最新消息">
                 </a>
                 <a href="https://www.harpersbazaar.com.hk/fashion/business-casual-outfits" target="blank">
-                    <img class="recipe2" src="./img/new_product_four.jpg" alt="外送最新消息">
+                    <img class="recipe2" src="<?php bloginfo('template_directory') ?>/img/new_product_four.jpg" alt="外送最新消息">
                 </a>
                 <a href="https://www.harpersbazaar.com.hk/fashion/business-casual-outfits" target="blank">
                     <h4>正式配裝</h4>
@@ -174,10 +174,10 @@
             </div>
             <div class="news-card" data-aos="zoom-in-up" data-aos-delay="1000" data-aos-duration="1000">
                 <a href="https://www.chachagood.com/article/spring-and-summer-outfit/6-american-casual-style" target="blank">
-                    <img class="recipe1" src="./img/new_product_five.jpg" alt="餐廳最新消息">
+                    <img class="recipe1" src="<?php bloginfo('template_directory') ?>/img/new_product_five.jpg" alt="餐廳最新消息">
                 </a>
                 <a href="https://www.chachagood.com/article/spring-and-summer-outfit/6-american-casual-style" target="blank">
-                    <img class="recipe2" src="./img/new_product_six.jpg" alt="餐廳最新消息">
+                    <img class="recipe2" src="<?php bloginfo('template_directory') ?>/img/new_product_six.jpg" alt="餐廳最新消息">
                 </a>
                 <a href="https://www.chachagood.com/article/spring-and-summer-outfit/6-american-casual-style" target="blank">
                     <h4>休閒著裝</h4>
@@ -190,7 +190,7 @@
     <!-- 頁尾 -->
     <footer>
         <div>
-            <a href="./index.php" class="logo"><img src="./img/logo_two.png" alt="形象天使標誌"></a>
+            <a href="./index.php" class="logo"><img src="<?php bloginfo('template_directory') ?>/img/logo_two.png" alt="形象天使標誌"></a>
         </div>
         <small id="copy">
             &copy; LEO 2021.

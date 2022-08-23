@@ -5,7 +5,7 @@
             <div class="mini_link_box">
                 <ul class="mini_link">
                     <li>
-                        <a href="./index.php"><img src="./img/logo_two.png" alt="形象天使標誌"></a>
+                        <a href="./index.php"><img src="<?php bloginfo('template_directory') ?>/img/logo_two.png" alt="形象天使標誌"></a>
                     </li>
                     <li>
                         <a href="./recommend.php">最新商品</a>
@@ -49,7 +49,7 @@
         </div>
         <div></div>
         <div id="link">
-            <a href="./index.php" class="logo"><img src="./img/logo_two.png" alt="形象天使標誌"></a>
+            <a href="./index.php" class="logo"><img src="<?php bloginfo('template_directory') ?>/img/logo_two.png" alt="形象天使標誌"></a>
             <a href="./recommend.php">最新商品</a>
             <div id="link_work">
                 服裝類型
@@ -80,13 +80,13 @@
             <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡我們</a>
         </div>
         <div id="social">
-            <a href="https://www.youtube.com/results?search_query=fashion+shop" target="blank"><img src="./img/youtube.png"
+            <a href="https://www.youtube.com/results?search_query=fashion+shop" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/youtube.png"
                     alt="youtube"></a>
-            <a href="https://www.instagram.com/besscomha" target="blank"><img src="./img/instagram.png"
+            <a href="https://www.instagram.com/besscomha" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/instagram.png"
                     alt="instagram"></a>
-            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="./img/facebook.png"
+            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/facebook.png"
                     alt="facebook"></a>
-            <a href="https://github.com/" target="blank"><img src="./img/github.png" alt="github"></a>
+            <a href="https://github.com/" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/github.png" alt="github"></a>
         </div>
     </nav>
 
@@ -99,7 +99,7 @@
                 <div class="mini_box">
                     <div class="mini_card">
                         <a href="./clothes_bag.html" target="_blank">
-                            <img src="./img/bag_one.jpg" alt="服裝">
+                            <img src="<?php bloginfo('template_directory') ?>/img/bag_one.jpg" alt="服裝">
                         </a>
                         <h3>時尚穿搭</h3>
                     </div>
@@ -108,7 +108,7 @@
                 <div class="mini_box">
                     <div class="mini_card">
                         <a href="./clothes_bag.html" target="_blank">
-                            <img src="./img/bag_two.jpg" alt="服裝">
+                            <img src="<?php bloginfo('template_directory') ?>/img/bag_two.jpg" alt="服裝">
                         </a>
                         <h3>輕鬆夏日</h3>
                     </div>
@@ -117,7 +117,7 @@
                 <div class="mini_box">
                     <div class="mini_card">
                         <a href="./clothes_bag.html" target="_blank">
-                            <img src="./img/bag_three.jpg" alt="服裝">
+                            <img src="<?php bloginfo('template_directory') ?>/img/bag_three.jpg" alt="服裝">
                         </a>
                         <h3>可愛風格</h3>
                     </div>
