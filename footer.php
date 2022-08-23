@@ -1,4 +1,19 @@
 <?php wp_footer(); ?>
+
+    <!-- 頁尾 -->
+    <footer>
+        <div>
+            <a href="./index.html" class="logo"><img src="./img/logo_two.png" alt="形象天使標誌"></a>
+        </div>
+        <small id="copy">
+            &copy; LEO 2021.
+        </small>
+        <div id="link">
+            <a href="./recommend.html">最新商品</a>
+            <a href="./contact.html">聯絡方式</a>
+        </div>
+    </footer>
+
     <!-- jquery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- AOS CDN -->
