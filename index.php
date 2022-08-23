@@ -1,4 +1,9 @@
-
+<?php
+/**
+ * Template Name: index
+ *
+ */
+?>
 
 <?php get_header(); ?>
     <!-- 導覽列 -->
