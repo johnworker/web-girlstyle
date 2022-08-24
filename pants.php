@@ -1,5 +1,5 @@
 <?php/**
- * Template Name: {範本名稱}
+ * Template Name: pants
  * Template Post Type: post, page
  *
  */

@@ -22,7 +22,7 @@
                             服裝類型
                             <ul class="sub_mini_link">
                                 <li>
-                                    <a href="./clothes.php">上衣</a>
+                                    <a href="/wordpress/clothes.php">上衣</a>
                                 </li>
                                 <li>
                                     <a href="./pants.php">褲款</a>
@@ -62,13 +62,13 @@
                 服裝類型
                 <ul class="sub_link">
                     <li>
-                        <a href="./clothes.php">上衣</a>
+                        <a href="<?php bloginfo('template_directory') ?>/wordpress/clothes.php">上衣</a>
                     </li>
                     <li>
-                        <a href="./pants.php">褲款</a>
+                        <a href="<?php bloginfo('template_directory') ?>/wordpress/pants.php">褲款</a>
                     </li>
                     <li>
-                        <a href="./skirt.php">裙款</a>
+                        <a href="<?php bloginfo('template_directory') ?>/wordpress/skirt.php">裙款</a>
                     </li>
                 </ul>
             </div>

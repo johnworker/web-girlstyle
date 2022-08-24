@@ -1,3 +1,11 @@
+<?php
+/**
+ * Template Name: recommend
+ * Template Post Type: post, page
+ *
+ */
+?>
+
 <?php get_header(); ?>
 
 <link rel="stylesheet" href="bloginfo('template_directory') ?>/css/other.css">
