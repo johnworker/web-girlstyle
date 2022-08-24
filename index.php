@@ -192,20 +192,6 @@
         </div>
     </section>
 
-    <!-- 頁尾 -->
-    <footer>
-        <div>
-            <a href="./index.php" class="logo"><img src="<?php bloginfo('template_directory') ?>/img/logo_two.png" alt="形象天使標誌"></a>
-        </div>
-        <small id="copy">
-            &copy; LEO 2021.
-        </small>
-        <div id="link">
-            <a href="./recommend.php">最新商品</a>
-            <a href="./contact.php">聯絡方式</a>
-        </div>
-    </footer>
-
     <!-- data-st-top 箭頭要出現的高度 -->
     <!-- data-st-time 特效的持續時間 -->
     <a id="arrow" data-st-target="top" data-st-duration="800" data-st-top="300" data-st-time="1000"></a>
